@@ -84,19 +84,20 @@ This modeling style aims to balance simulation accuracy and speed, and we hope y
 ## Model File Introduction:
 ### BidirectionalCurrentControlConverter.slx
 This model represents a bidirectional converter using a simple half-bridge circuit and achieves current control with a control model based on a simple PI controller.
-Comments explaining the modeling style and solver settings are written in Japanese within each subsystem hierarchy of the model file.
+Comments explaining the modeling style and solver settings are written in Japanese and English within each subsystem hierarchy of the model file.
 
 双方向のコンバータをシンプルなハーフブリッジで表現した回路モデルを制御対象とし、
 シンプルなPIコントローラをベースとした制御モデルによって電流制御を実現しているモデルです。
 
 モデリングスタイルやソルバの設定については、モデルファイル内の各サブシステム階層にわかれて
-解説のコメントが日本語で記述されています。
+解説のコメントが日本語と英語で記述されています。
 
-![2025-07-17_13-01-51](/uploads/5d453f3b7e71e3e6426c4ec7bb03eaaa/2025-07-17_13-01-51.PNG)
+<img width="1204" height="1167" alt="2025-10-21_09-49-10" src="https://github.com/user-attachments/assets/290253dc-b688-4530-9db6-47c1a7d8b73b" />
+
 
 ### BuckConverter_accuracy_oriented.slx/BuckConverter_speed_oriented.slx
 
-![2025-07-17_13-17-14](/uploads/d420859d7c676bed1edda68a006054b9/2025-07-17_13-17-14.PNG)
+<img width="1154" height="898" alt="2025-10-21_09-50-01" src="https://github.com/user-attachments/assets/c39f5f85-1f7b-4ff8-b2c3-f3e8df1fbc22" />
 
 The BuckConverter_accuracy_oriented.slx model partially references an example model officially provided by MathWorks.
 In this sample, the power MOSFET library uses the[Nch-MOSFET](https://jp.mathworks.com/help/sps/ref/nchannelmosfet.html)Block
@@ -146,7 +147,12 @@ https://jp.mathworks.com/help/sps/ug/buck-converter_example-ee_switching_power_s
 **CheckSimulationSpeed.m** スクリプトを実行することで両者のモデルの実行時間を比較することができます。
 
 ### SinglePhaseInverter.slx
-![2025-09-25_18-44-27](/uploads/236dc1ae8d05947ce855ed66972062ea/2025-09-25_18-44-27.PNG)
+
+<img width="1191" height="617" alt="2025-10-21_09-55-30" src="https://github.com/user-attachments/assets/38a50359-e7f0-4ffd-9014-539b3e183e84" />
+
+https://github.com/user-attachments/assets/b426396c-c093-47a1-88c8-8cbdf3433dd9
+
+
 This is a full-bridge inverter modeling example assuming a single-phase grid-connected inverter.
 When generating a voltage output synchronized with the grid voltage, a PLL (Phase-Locked Loop) is normally used.
 However, since the objective of this example is to represent only the current control system,
