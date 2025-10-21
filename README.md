@@ -20,6 +20,13 @@ However, since this example uses the most basic half-bridge circuit in a Buck Co
 本例題で紹介しているモデリングスタイルは、あらゆる回路において適応できる万能な例題ではありませんが、
 本例題では最も基本的なハーフブリッジ回路を用いたBuck Converterを例題にしておりますので、多くのパワーエレクトロニクス回路に応用できる可能性があります。
 
+If you want know more detale infomation "The techniq define Fast Simulation for Power Electronics Systems",Please Check this repo.
+「パワー エレクトロニクス システムの高速シミュレーションを定義する手法」の詳細情報が必要な場合は、このリポジトリを確認してください。
+https://github.com/simscape/FastElectricalSimulations
+
+
+
+
 # Version
 Main: R2025a<br>
 A branch saved in R2021a is also provided to allow customers who cannot use the latest version to try it out.
