@@ -24,15 +24,17 @@ If you want know more detale infomation "The techniq define Fast Simulation for 
 「パワー エレクトロニクス システムの高速シミュレーションを定義する手法」の詳細情報が必要な場合は、このリポジトリを確認してください。
 https://github.com/simscape/FastElectricalSimulations
 
-
-
-
 # Version
-Main: R2025a<br>
+|Branch|Version|
+|----|----|
+|main|R2025b|<br>
+|R2021a|R2021a|
+
 A branch saved in R2021a is also provided to allow customers who cannot use the latest version to try it out.
-Customers using versions earlier than R2025a but no earlier than R2021a are encouraged to use the R2021a branch.
+Customers using versions earlier than R2025b but no earlier than R2021a are encouraged to use the R2021a branch.
+
 最新バージョンを利用できないお客様にも触れていただくことを狙って、R2021aでのバージョンで保存したブランチも用意されています。
-R2025a以前かつR2021a以降のバージョンをご利用のお客様はR2021aブランチをお試し下さい。
+R2025b以前かつR2021a以降のバージョンをご利用のお客様はR2021aブランチをお試し下さい。
 # Language
 Japanese,English
 The ReadMe is available in both Japanese and English, but the internal annotations of the model are only in Japanese.
