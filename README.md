@@ -22,6 +22,11 @@ However, since this example uses the most basic half-bridge circuit in a Buck Co
 
 If you want know more detale infomation "The techniq define Fast Simulation for Power Electronics Systems",Please Check this repo.
 「パワー エレクトロニクス システムの高速シミュレーションを定義する手法」の詳細情報が必要な場合は、このリポジトリを確認してください。
+
+
+
+
+
 https://github.com/simscape/FastElectricalSimulations
 
 # Version
@@ -129,6 +134,7 @@ These adjustments collectively result in a model optimized for simulation speed.
 
 By running the **CheckSimulationSpeed.m** script, you can compare the execution times of the two models.
 
+https://github.com/user-attachments/assets/90c9b147-e670-4e4a-ba74-07b8c5c95b0e
 
 BuckConverter_accuracy_oriented.slxは下記の公開サンプルを参考に作成されています。
 こちらのサンプルではパワーMOSFETライブラリに
